@@ -1,0 +1,16 @@
+<div class="controler-container">
+    <div class="controler">
+        <div class="row">
+            <button [ngClass]="!IsPlay?'btn-success':'btn-warning'" class="btn" (click)="isActive()">{{PlayPause}}</button>
+            <button class="btn btn-danger" (click)="clearAllSound()">Clear</button>
+            <div class="range-controler">
+                <input [(ngModel)]="range" (change)="bpmRange(range)" type="range" class="range-container slider" min=1 max=420>
+                <label style="margin-left:10px; color:aqua">
+                    {{range}} bpm
+                </label>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>

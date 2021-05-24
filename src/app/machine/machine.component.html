@@ -1,0 +1,5 @@
+<div class="machine-container">
+    <div class="machine">
+       <app-instruments *ngFor="let sound of sounds" [InstrumentsName]="sound.name" [positions]="sound.points" [Position]="PositionTrack"></app-instruments>
+    </div>
+</div>

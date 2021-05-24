@@ -1,0 +1,12 @@
+<div class="note-container justify-content-sd-end">
+<div class="row ">
+    <label class="col-sm instruments">
+        <strong>{{InstrumentsName}}</strong>
+    </label>
+    <span class="btn col-sm" appHighlight *ngFor="let position of positions" (click)="isActive(position)" [ngClass]="activer(position)">
+        <div class="shape-content" [class.innerfill]="position.active" >
+        </div>
+    </span>
+    
+</div>
+</div>

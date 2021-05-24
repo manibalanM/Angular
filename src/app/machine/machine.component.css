@@ -1,0 +1,16 @@
+.machine-container
+{
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+    background-color: #282828;
+}
+.machine
+{
+    padding:20px 10px;
+    margin:auto 20px;
+    display: flex;
+    flex-direction: column;
+}

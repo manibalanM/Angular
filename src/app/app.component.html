@@ -1,0 +1,6 @@
+
+<div class="container">
+  <h2>Drums Machine</h2>
+  <app-control (Player)="IsActive($event)" (clean)="clearActive($event)" (BPM)="calculateBPM($event)" ></app-control>
+  <app-machine [PositionTrack]="PositionTaken"></app-machine>
+</div>

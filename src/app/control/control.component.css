@@ -1,0 +1,61 @@
+.controler-container
+{
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px #404040;
+    background-color: #282828;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    background: aqua;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 5px;
+    border-radius: 50%;
+    background: aqua;
+    cursor: pointer;
+  }
+
+.controler{
+    margin: 10px 60px;
+}
+.btn
+{
+    margin-right: 40px;
+    border: 1px solid rgb(206, 199, 199);
+}
+.range-container
+{
+    width: 280px;
+}
+
+.range-controler{
+    border:1px solid #b3b3b3;
+    background-color: #181818;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn{
+    width: 100px;
+}

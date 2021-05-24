@@ -1,0 +1,47 @@
+.seq-active{
+    border: 1px solid black;
+    width: 20px;
+    max-width: 10px;
+}
+.col-sm{
+    margin: 0% 10px;
+}
+.note-container{
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    border: 1px solid gainsboro;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+    background-color: #282828;
+}
+.instruments{ 
+    color:#b3b3b3;
+}
+.btn{
+    height: 40px;
+}
+.shape-content
+{
+    border: 1px solid grey;
+    border-radius: 40px;
+    margin-top: 20px;
+    height: 5px;
+    background-color: honeydew;
+}
+.emptyContent{
+    border:1px solid gainsboro;
+    background-color: rgb(179, 177, 177);
+}
+.filledContent{
+    border:1px solid rgb(27, 120, 241);
+    background-color: skyblue;
+    /* box-shadow: 0 2px 10px aqua; */
+}
+.innerfill{
+    border:1px solid lightseagreen;
+    background-color: aquamarine;
+}
+.boxShodow{
+    
+    box-shadow: 0 2px 12px aqua;}
